@@ -1,4 +1,34 @@
 
+function clique(){
+    document.getElementById('obg').innerHTML = '<h2>você clica muito bem ;)</h2>';
+    document.getElementById('troca').innerHTML = '<h2>Passe o mouse aqui.</h2>';
+}
+
+function redirecionar(){
+    window.open('https://www.linkedin.com/in/adriel-jordão-98a163202/')
+    //window.location.href = 'https://www.linkedin.com/in/adriel-jordão-98a163202/'
+}
+
+function troca(elemento){
+    //alert('Passou, parabéns.')
+    //document.getElementById('troca').innerHTML = 'Passou, parabéns.'
+    elemento.innerHTML = '<h3>Passou, parabéns</h3><h6>aaaaaaa</h6>'
+}
+
+function volta(elemento){
+    //document.getElementById('troca').innerHTML = '<h2>Passe o mouse aqui.</h2>'
+    elemento.innerHTML = '<h2> Passe o mouse aqui</h2>'
+}
+
+function load(){
+    alert('Carregou.')
+}
+
+function muda(elemento){
+    console.log(elemento.value)
+    console.log('y')
+}
+/*
 function validaIdade(idade){
     if (idade >= 18){
         return true}else{
@@ -6,9 +36,10 @@ function validaIdade(idade){
         }
 }
 
-var idade = prompt('Qual é a sua idade?')
+var idade = prompt('Qual é a sua idade?');
 if (validaIdade(idade)){
     alert('Bem vindo.')}else{alert('PERISH YOUNGLIN')}
+*/
 /*
 function soma(n1, n2){
     return n1+n2;

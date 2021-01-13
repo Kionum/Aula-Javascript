@@ -6,6 +6,14 @@
     <title>Minha pág</title>
     <script type="text/javascript" src="./js/main.js"></script>
 </head>
-<body>
+<body onload="load()">
+    <button type="button" onclick="clique()">Clique aqui</button>
+    <p id='obg' onclick="redirecionar()"></p>
+    <p id = 'troca' onmouseover="troca(this)" onmouseout="volta(this)"></p>
+    <select onchange="muda(this)">
+        <option value="1">v1</option>
+        <option value="2">v2</option>
+        <option value="3">v3</option>
+    </select>
 </body>
 </html>
